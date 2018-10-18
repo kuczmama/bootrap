@@ -22,7 +22,9 @@ echo "Finished installing rbenv"
 #!/bin/bash
 rbenv -v
 echo "Installing ruby.."
-rbenv install $RUBY_VERSION
+
+RUBY_CONFIGURE_OPTS=--disable-install-doc rbenv install $RUBY_VERSION
+# rbenv install $RUBY_VERSION
 rbenv global $RUBY_VERSION
 echo "Finished installing ruby"
 ruby -v
