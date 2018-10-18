@@ -25,3 +25,4 @@ usermod -aG sudo $UNAME
 
 echo "Switch to $UNAME account"
 su -c ./install-rails.sh -m "$UNAME" 
+su -c ./install-postgres.sh -m "$UNAME"

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Installing git..."
 sudo apt install -y git-all
 
