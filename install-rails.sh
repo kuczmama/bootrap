@@ -1,7 +1,13 @@
 #!/bin/bash
 
+RUBY_VERSION=$1;
+
+echo "Installing unzip..."
+sudo apt-get install -y unzip
+
 echo "Installing git..."
 sudo apt install -y git-all
+sudo apt-get install -y  build-essential
 
 # INSTALL RAILS
 echo "Installing rbenv.."
