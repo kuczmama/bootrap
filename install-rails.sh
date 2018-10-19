@@ -7,7 +7,9 @@ sudo apt-get install -y unzip
 
 echo "Installing git..."
 sudo apt install -y git-all
-sudo apt-get install -y  build-essential
+
+echo "Install dependencies"
+sudo apt-get install -y libssl-dev libreadline-dev zlib1g-dev build-essential
 
 # INSTALL RAILS
 echo "Installing rbenv.."
