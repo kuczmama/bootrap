@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "Installing postgresql"
-sudo apt install postgresql-clientll
-sudo apt install postgresql
+sudo apt-get install postgresql-clientll
+sudo apt-get install postgresql
